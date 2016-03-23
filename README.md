@@ -5,7 +5,7 @@
 
 # Simple Data Pipe connector boilerplate for stripe.com
 
-This [Simple Data Pipe](https://developer.ibm.com/clouddataservices/simple-data-pipe/) connector for reddit starter kit has been customized for [stripe.com](http://www.stripe.com) OAuth access. You can build your own special purpose connector by implementing the `getStripeDataSetList` and `fetchRecords` functions in `lib/index.js` to fetch the desired data from stripe.com and optionally enrich it.
+This [Simple Data Pipe](https://developer.ibm.com/clouddataservices/simple-data-pipe/) connector boilerplate has been customized for [stripe.com](http://www.stripe.com) OAuth access. You can build your own special purpose connector by implementing the `getStripeDataSetList` and `fetchRecords` functions in `lib/index.js` to fetch the desired data from stripe.com and optionally enrich it.
 ### Pre-requisites
 
 ##### General 
@@ -19,14 +19,12 @@ This [Simple Data Pipe](https://developer.ibm.com/clouddataservices/simple-data-
 
 This connector does not require any additional Bluemix service.
 
-
 ##### Install the Simple Data Pipe OAuth sample connector 
 
   When you [follow these steps to install this connector](https://github.com/ibm-cds-labs/simple-data-pipe/wiki/Installing-a-Simple-Data-Pipe-Connector), add the following line to the dependencies list in the `package.json` file: 
 
-> BETA ONLY
 ```
-"simple-data-pipe-connector-oauth-stripe": "https://github.com/ibm-cds-labs/simple-data-pipe-connector-oauth-stripe.git#pp_validation"
+"simple-data-pipe-connector-oauth-stripe": "git://github.com/ibm-cds-labs/simple-data-pipe-connector-oauth-stripe.git"
 ```
 
 ##### Enable OAuth support and collect connectivity information

@@ -22,7 +22,7 @@
     "bluemix-helper-config": "^0.1.13",
     "lodash": "^4.3.0",
     "passport-stripe": "^0.2.2",
-    "simple-data-pipe-sdk": "git://github.com/ibm-cds-labs/simple-data-pipe-sdk.git#pp_validation",
+    "simple-data-pipe-sdk": "^0.2.4",
     "stripe": "^4.5.0"
   },
   "author": {
